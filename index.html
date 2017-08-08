@@ -4,8 +4,11 @@
     </head>
     <body>
         <h1>Main Page</h1>
-	<text>192.168.1.100</text>
-	<button>set ip</button>
-	<p>Nothing but HTML</p>
+    <form action="setip.py" method="post">
+        <input type="text" name="ipaddr"/>
+        <button type="submit">设置</button>
+    </form>
+	
     </body>
 </html>
+
